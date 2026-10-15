@@ -1,0 +1,9 @@
+# GambitLab backend (Python 3.10). Install into the project venv:
+#   ..\trainer\.venv\Scripts\python.exe -m pip install -r requirements.txt
+fastapi==0.143.2
+uvicorn[standard]==0.42.0
+sqlalchemy==2.0.54
+pydantic==2.14.1
+httpx==0.28.1
+python-chess==1.11.2
+pytest==9.0.2

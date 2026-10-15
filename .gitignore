@@ -1,0 +1,33 @@
+# Build artifacts
+engine/build/
+*.o
+*.obj
+*.exe
+
+# Python
+trainer/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+server/*.egg-info/
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Data / nets / DB (generated)
+data/*
+!data/.gitkeep
+*.nnue
+*.db
+*.db-wal
+*.db-shm
+
+# Tools binaries
+tools/*
+!tools/.gitkeep
+
+# Editor
+.vscode/
+.idea/
